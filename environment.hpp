@@ -1,6 +1,7 @@
 #pragma once
 
 #include <vector>
+#include <iostream>
 
 using namespace std;
 
@@ -15,3 +16,11 @@ typedef vector<d3d> d4d;
 typedef vector<d4d> d5d;
 typedef vector<d5d> d6d;
 typedef vector<bool> b1d;
+
+struct Parameter
+{
+    int run;
+    int degree;
+    int max_evo;
+    int func;
+};
