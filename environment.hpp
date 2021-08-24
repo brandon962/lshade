@@ -2,6 +2,12 @@
 
 #include <vector>
 #include <iostream>
+#include <time.h>
+#include <string>
+#include <chrono>
+#include <algorithm>
+#include <random>
+#include "cec17_test_func.hpp"
 
 using namespace std;
 
@@ -21,6 +27,10 @@ struct Parameter
 {
     int run;
     int degree;
-    int max_evo;
+    int MAX_NFE;
     int func;
 };
+
+int itemp;
+double dtemp;
+string stemp;
